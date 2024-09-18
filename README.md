@@ -14,10 +14,10 @@ In the project directory, you can run (node version 18)
 
 Commands to deploy to rke dev env.
 
-### docker buildx build --platform=linux/amd64 -t crony:v1 .
+### `docker buildx build --platform=linux/amd64 -t crony:v1 .`
 
-### docker tag crony:v1 docker-registry.infra.cloudera.com/kubecat-dev/crony:v1
+### `docker tag crony:v1 docker-registry.infra.cloudera.com/kubecat-dev/crony:v1`
 
-### docker push docker-registry.infra.cloudera.com/kubecat-dev/crony:v1
+### `docker push docker-registry.infra.cloudera.com/kubecat-dev/crony:v1`
 
-### helm upgrade crony-v1 crony/ --install --values crony/values.yaml --values crony/values-rke-dev.yaml --create-namespace --namespace crony-1 --debug
+### `helm upgrade crony-v1 crony/ --install --values crony/values.yaml --values crony/values-rke-dev.yaml --create-namespace --namespace crony-1 --debug`
