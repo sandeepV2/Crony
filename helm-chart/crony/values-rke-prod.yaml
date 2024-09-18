@@ -1,0 +1,10 @@
+ingress:
+  path: /
+  hosts:
+    - crony.rke-us-west.kc.cloudera.com
+    - crony.infra.cloudera.com
+  tls:
+    - hosts:
+        - crony.rke-us-west.kc.cloudera.com
+        - crony.infra.cloudera.com
+      secretName: wildcard.infra.cloudera.com-cert
