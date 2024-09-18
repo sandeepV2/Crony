@@ -1,4 +1,4 @@
-# The project is made to serve cdsw and e2e component as part of POC.
+**# The project is made to serve _cdsw_ and _e2e_ component as part of POC.**
 
 # Getting Started with Create React App
 
